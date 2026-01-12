@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { width: 300px; font-family: 'Segoe UI', Tahoma, sans-serif; padding: 15px; background: #f4f7f6; margin: 0; }
+        .header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+        .card { padding: 12px; border-radius: 10px; margin-bottom: 10px; border: 1px solid transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .title { font-weight: bold; font-size: 14px; margin-bottom: 4px; display: flex; align-items: center; gap: 5px; }
+        .desc { font-size: 12px; line-height: 1.4; }
+        
+        .danger { background: #fff5f5; border-color: #feb2b2; color: #c53030; }
+        .warning { background: #fffaf0; border-color: #fbd38d; color: #9c4221; }
+        .safe { background: #f0fff4; border-color: #9ae6b4; color: #276749; }
+        .info-badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; background: rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>🛡️ IKI SCAN WEB AI</h3>
+    </div>
+
+    <div id="ai-card" class="card">
+        <div class="title">Checking AI...</div>
+    </div>
+
+    <div id="leak-card" class="card">
+        <div class="title">Checking Leaks...</div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
